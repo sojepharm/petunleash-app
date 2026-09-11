@@ -1,7 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rofluedkfz/petunleash.com/
+    
+     - export DEPLOYPATH=/home/rofluedkfz/sojepharm/public/   
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp app.js $DEPLOYPATH
     - /bin/cp admin.html $DEPLOYPATH
